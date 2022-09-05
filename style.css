@@ -44,7 +44,7 @@ footer{
     padding: 10px 12px;
     text-decoration: none;
 }
-}
+
 li{
     list-style: none;
 }
@@ -67,4 +67,16 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 20px;
+    padding-left: 10px;
+} /*non funziona il padding-left*/
+h1{
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+.paragrafi{
+    max-width: 250px;
+}
+h2{
+    color: #23272A;
 }
