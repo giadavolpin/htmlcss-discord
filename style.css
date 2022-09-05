@@ -8,6 +8,7 @@ body{
 }
 header{
     background-color: #3161E0;
+    color: #ffffff;
 }
 /*header */
 header nav.container {
@@ -35,6 +36,15 @@ footer{
     padding: 10px 12px;
     text-decoration: none;
 }
+.bottone-nero{
+    display: block;
+    background-color:#23272A;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+}
 li{
     list-style: none;
 }
@@ -44,7 +54,7 @@ li{
     align-items: center;
 }
 .hero{
-    background-image: url(../htmlcss-discord/img/img/jumbo.png);
+    background-image: url("img\__MACOSX\img\._jumbo.png");
     height: 465px;
     background-size: cover;
 }
@@ -52,4 +62,9 @@ li{
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
