@@ -26,7 +26,7 @@ footer{
     max-width: 1170px;
     margin: 0 auto;
     flex-wrap: wrap;
-} /*wrap sistemare */
+} 
 .bg-grey{
     background-color: lightgray; 
 }
@@ -47,6 +47,16 @@ footer{
     padding: 10px 12px;
     text-decoration: none;
     margin-right: 20px;
+}
+.bottone-blu{
+    display: flex;
+    background-color:rgb(142, 161, 225);
+    color:white;
+    border-radius: 20px;
+    padding: 10px 12px;
+    text-decoration: none;
+    margin: 30px 400px;
+    justify-content: center;
 }
 li{
     list-style: none;
@@ -85,10 +95,17 @@ h2{
 }
 h4{
     text-align: center;
-    background-image: url(./img/img/stars.svg);
     color: 2a2d30; 
 }
+.stars{
+    background-image: url(./img/img/stars.svg);
+    display: flex;
+    justify-content: center;
+} /*non funzionano le stars*/
 .margine{
     margin-top: 70px;
     line-height: 30px;
+}
+.azzurro{
+    color: rgb(114, 137, 218);
 }
