@@ -20,7 +20,6 @@ header nav ul{
 footer{
     background-color: #23272A;
     color: #ffffff;
-    
 }
 .container{
     max-width: 1170px;
@@ -58,6 +57,15 @@ footer{
     margin: 30px 400px;
     justify-content: center;
 }
+.bottone-blu1{
+    display: flex;
+    background-color:rgb(142, 161, 225);
+    color:white;
+    border-radius: 20px;
+    padding: 10px 12px;
+    text-decoration: none;   
+}
+
 li{
     list-style: none;
 }
@@ -108,4 +116,11 @@ h4{
 }
 .azzurro{
     color: rgb(114, 137, 218);
+}
+
+.foot-margin{
+    max-width: 1170px;
+    margin: 10px auto;
+    flex-wrap: wrap;
+    vertical-align: middle;
 }
