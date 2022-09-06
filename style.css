@@ -34,7 +34,7 @@ footer{
     background-color: #ffffff;
     color: #23272A;
     border-radius: 20px;
-    padding: 10px 12px;
+    padding: 8px 8px;
     text-decoration: none;
     margin-right: 20px;
 }
@@ -43,7 +43,7 @@ footer{
     background-color:#23272A;
     color: #ffffff;
     border-radius: 20px;
-    padding: 10px 12px;
+    padding: 8px 8px;
     text-decoration: none;
     margin-right: 20px;
 }
@@ -52,17 +52,18 @@ footer{
     background-color:rgb(142, 161, 225);
     color:white;
     border-radius: 20px;
-    padding: 10px 12px;
+    padding: 8px 8px;
     text-decoration: none;
-    margin: 30px 400px;
+    margin: 30px 350px;
     justify-content: center;
+    vertical-align: middle;
 }
 .bottone-blu1{
     display: flex;
     background-color:rgb(142, 161, 225);
     color:white;
     border-radius: 20px;
-    padding: 10px 12px;
+    padding: 8px 8px;
     text-decoration: none;   
 }
 li{
@@ -120,19 +121,30 @@ h4{
 }
 .azzurro{
     color: rgb(114, 137, 218);
+    padding-top: 20px;
 }
 
 .foot-margin{
     max-width: 1170px;
     margin: 10px auto;
     flex-wrap: wrap;
-    vertical-align: middle;
+    padding: 10px;
+    border-top: 1px solid rgb(114, 137, 218);
 }
 .colonne{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    padding: 10px;
 }
 i{
     color: #ffffff;
+    margin: 10px;
+    vertical-align: middle;
+}
+section{
+    padding: 70px;
+}
+.nero{
+    color: #23272A;
 }
