@@ -20,14 +20,15 @@ header nav ul{
 footer{
     background-color: #23272A;
     color: #ffffff;
+    
 }
 .container{
     max-width: 1170px;
     margin: 0 auto;
-}
+    flex-wrap: wrap;
+} /*wrap sistemare */
 .bg-grey{
-    background-color: F6F6F6; 
-    margin: 100px;
+    background-color: lightgray; 
 }
 .bottone{
     display: block;
@@ -57,7 +58,7 @@ li{
 }
 .hero{
     background-image: url("./img/img/jumbo.png");
-    height: 465px;
+    height: 500px;
     background-size: cover;
 }
 .inner-hero{
@@ -86,4 +87,8 @@ h4{
     text-align: center;
     background-image: url(./img/img/stars.svg);
     color: 2a2d30; 
+}
+.margine{
+    margin-top: 70px;
+    line-height: 30px;
 }
