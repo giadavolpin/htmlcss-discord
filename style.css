@@ -27,7 +27,7 @@ footer{
     flex-wrap: wrap;
 } 
 .bg-grey{
-    background-color: lightgray; 
+    background-color: rgb(246, 246, 246); 
 }
 .bottone{
     display: block;
