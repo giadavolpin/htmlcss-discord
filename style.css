@@ -148,3 +148,10 @@ section{
 .nero{
     color: #23272A;
 }
+.bandiera{
+    width: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: flex-start;
+}
