@@ -124,3 +124,8 @@ h4{
     flex-wrap: wrap;
     vertical-align: middle;
 }
+.colonne{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
