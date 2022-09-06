@@ -65,14 +65,18 @@ footer{
     padding: 10px 12px;
     text-decoration: none;   
 }
-
 li{
     list-style: none;
+    padding: 5px 0;
 }
 .flexbox{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.ultimo{
+    display: flex;
+    justify-content: center;
 }
 .hero{
     background-image: url("./img/img/jumbo.png");
@@ -128,4 +132,7 @@ h4{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+}
+i{
+    color: #ffffff;
 }
